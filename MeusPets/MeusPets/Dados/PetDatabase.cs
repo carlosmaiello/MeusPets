@@ -59,5 +59,10 @@ namespace MeusPets.Dados
         {
             return _database.GetAllWithChildrenAsync<Vacina>();
         }
+
+        public Task<Vacina> ConsultarVacinaAsync(int id)
+        {
+            return _database.GetWithChildrenAsync<Vacina>(id);
+        }
     }
 }
