@@ -8,6 +8,9 @@ using SQLiteNetExtensionsAsync.Extensions;
 
 namespace MeusPets.Dados
 {
+    /**
+     * Banco de dados do sistema Meus Pets
+     */
     public class PetDatabase
     {
 
